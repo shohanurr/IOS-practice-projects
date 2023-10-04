@@ -14,6 +14,7 @@
 		F9AC39B42ACA96B7009206D8 /* SwiftUI_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC39B32ACA96B7009206D8 /* SwiftUI_WeatherTests.swift */; };
 		F9AC39BE2ACA96B7009206D8 /* SwiftUI_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC39BD2ACA96B7009206D8 /* SwiftUI_WeatherUITests.swift */; };
 		F9AC39C02ACA96B7009206D8 /* SwiftUI_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC39BF2ACA96B7009206D8 /* SwiftUI_WeatherUITestsLaunchTests.swift */; };
+		F9AC39CD2ACAE1F3009206D8 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC39CC2ACAE1F3009206D8 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F9AC39B92ACA96B7009206D8 /* SwiftUI-WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AC39BD2ACA96B7009206D8 /* SwiftUI_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherUITests.swift; sourceTree = "<group>"; };
 		F9AC39BF2ACA96B7009206D8 /* SwiftUI_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9AC39CC2ACAE1F3009206D8 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F9AC39A42ACA96B0009206D8 /* ContentView.swift */,
 				F9AC39A62ACA96B6009206D8 /* Assets.xcassets */,
 				F9AC39A82ACA96B6009206D8 /* Preview Content */,
+				F9AC39CC2ACAE1F3009206D8 /* PrimaryButton.swift */,
 			);
 			path = "SwiftUI-Weather";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AC39CD2ACAE1F3009206D8 /* PrimaryButton.swift in Sources */,
 				F9AC39A52ACA96B0009206D8 /* ContentView.swift in Sources */,
 				F9AC39A32ACA96B0009206D8 /* SwiftUI_WeatherApp.swift in Sources */,
 			);
@@ -347,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
